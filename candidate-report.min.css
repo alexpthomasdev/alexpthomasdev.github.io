@@ -230,6 +230,10 @@
   content: '\e906';
 }
 
+section:nth-of-type(-n + 3) {
+  page-break-after: always;
+}
+
 @media screen {
   section {
     display: inline-block;

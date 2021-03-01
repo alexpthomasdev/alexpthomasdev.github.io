@@ -425,9 +425,9 @@ section.overview {
   border-radius: 0;
 }
 
-section.profile {
+/* section.profile {
   page-break-after: always;
-}
+} */
 
 section.pageBreakAfter {
   page-break-after: always;

@@ -1,101 +1,81 @@
 @font-face {
-  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  src: url(../../Resources/Fonts/Arial/arial.ttf);
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  src: url(../../Resources/Fonts/Arial/arial.ttf)
 }
 
 @font-face {
   font-family: lato;
   src: url(https://perform.thomas.co/static/media/Lato-Light.0f73589a.ttf);
-  src: url(https://perform.thomas.co/static/media/Lato-Light.0f73589a.ttf) format('truetype');
+  src: url(https://perform.thomas.co/static/media/Lato-Light.0f73589a.ttf) format("truetype");
   font-weight: 300;
-  font-style: normal;
+  font-style: normal
 }
 
 @font-face {
   font-family: lato;
   src: url(https://perform.thomas.co/static/media/Lato-Regular.c5eb5440.ttf);
-  src: url(https://perform.thomas.co/static/media/Lato-Regular.c5eb5440.ttf) format('truetype');
+  src: url(https://perform.thomas.co/static/media/Lato-Regular.c5eb5440.ttf) format("truetype");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
 
 @font-face {
   font-family: lato;
   src: url(https://perform.thomas.co/static/media/Lato-Bold.2d15decc.ttf);
-  src: url(https://perform.thomas.co/static/media/Lato-Bold.2d15decc.ttf) format('truetype');
+  src: url(https://perform.thomas.co/static/media/Lato-Bold.2d15decc.ttf) format("truetype");
   font-weight: 700;
-  font-style: normal;
+  font-style: normal
 }
 
 @font-face {
-  font-family: 'font awesome 5 brands';
+  font-family: "font awesome 5 brands";
   font-style: normal;
   font-weight: 400;
   font-display: block;
   src: url(https://perform.thomas.co/static/media/fa-brands-400.0fabb660.eot);
-  src: url(https://perform.thomas.co/static/media/fa-brands-400.0fabb660.eot?#iefix)
-      format('embedded-opentype'),
-    url(https://perform.thomas.co/static/media/fa-brands-400.cac68c83.woff2) format('woff2'),
-    url(https://perform.thomas.co/static/media/fa-brands-400.dc0bd022.woff) format('woff'),
-    url(https://perform.thomas.co/static/media/fa-brands-400.085b1dd8.ttf) format('truetype'),
-    url(https://perform.thomas.co/static/media/fa-brands-400.ccfdb9dc.svg#fontawesome) format('svg');
+  src: url(https://perform.thomas.co/static/media/fa-brands-400.0fabb660.eot?#iefix) format("embedded-opentype"), url(https://perform.thomas.co/static/media/fa-brands-400.cac68c83.woff2) format("woff2"), url(https://perform.thomas.co/static/media/fa-brands-400.dc0bd022.woff) format("woff"), url(https://perform.thomas.co/static/media/fa-brands-400.085b1dd8.ttf) format("truetype"), url(https://perform.thomas.co/static/media/fa-brands-400.ccfdb9dc.svg#fontawesome) format("svg")
 }
 
 @font-face {
-  font-family: 'font awesome 5 free';
+  font-family: "font awesome 5 free";
   font-style: normal;
   font-weight: 400;
   font-display: block;
   src: url(https://perform.thomas.co/static/media/fa-regular-400.ad3a7c0d.eot);
-  src: url(https://perform.thomas.co/static/media/fa-regular-400.ad3a7c0d.eot?#iefix)
-      format('embedded-opentype'),
-    url(https://perform.thomas.co/static/media/fa-regular-400.3a3398a6.woff2) format('woff2'),
-    url(https://perform.thomas.co/static/media/fa-regular-400.05b53beb.woff) format('woff'),
-    url(https://perform.thomas.co/static/media/fa-regular-400.1a78af41.ttf) format('truetype'),
-    url(https://perform.thomas.co/static/media/fa-regular-400.e75dfd90.svg#fontawesome)
-      format('svg');
+  src: url(https://perform.thomas.co/static/media/fa-regular-400.ad3a7c0d.eot?#iefix) format("embedded-opentype"), url(https://perform.thomas.co/static/media/fa-regular-400.3a3398a6.woff2) format("woff2"), url(https://perform.thomas.co/static/media/fa-regular-400.05b53beb.woff) format("woff"), url(https://perform.thomas.co/static/media/fa-regular-400.1a78af41.ttf) format("truetype"), url(https://perform.thomas.co/static/media/fa-regular-400.e75dfd90.svg#fontawesome) format("svg")
 }
 
 @font-face {
-  font-family: 'font awesome 5 free';
+  font-family: "font awesome 5 free";
   font-style: normal;
   font-weight: 900;
   font-display: block;
   src: url(https://perform.thomas.co/static/media/fa-solid-900.89bd2e38.eot);
-  src: url(https://perform.thomas.co/static/media/fa-solid-900.89bd2e38.eot?#iefix)
-      format('embedded-opentype'),
-    url(https://perform.thomas.co/static/media/fa-solid-900.c500da19.woff2) format('woff2'),
-    url(https://perform.thomas.co/static/media/fa-solid-900.ee09ad75.woff) format('woff'),
-    url(https://perform.thomas.co/static/media/fa-solid-900.781e85bb.ttf) format('truetype'),
-    url(https://perform.thomas.co/static/media/fa-solid-900.03ba7cb7.svg#fontawesome) format('svg');
+  src: url(https://perform.thomas.co/static/media/fa-solid-900.89bd2e38.eot?#iefix) format("embedded-opentype"), url(https://perform.thomas.co/static/media/fa-solid-900.c500da19.woff2) format("woff2"), url(https://perform.thomas.co/static/media/fa-solid-900.ee09ad75.woff) format("woff"), url(https://perform.thomas.co/static/media/fa-solid-900.781e85bb.ttf) format("truetype"), url(https://perform.thomas.co/static/media/fa-solid-900.03ba7cb7.svg#fontawesome) format("svg")
 }
 
 @font-face {
   font-family: thomasFont;
   src: url(https://perform.thomas.co/static/media/thomasFont.6fe424e0.eot);
-  src: url(https://perform.thomas.co/static/media/thomasFont.6fe424e0.eot#iefix)
-      format('embedded-opentype'),
-    url(https://perform.thomas.co/static/media/thomasFont.d77c03bb.ttf) format('truetype'),
-    url(https://perform.thomas.co/static/media/thomasFont.dfe1ee18.woff) format('woff'),
-    url(https://perform.thomas.co/static/media/thomasFont.2221fdf0.svg#thomasFont) format('svg');
+  src: url(https://perform.thomas.co/static/media/thomasFont.6fe424e0.eot#iefix) format("embedded-opentype"), url(https://perform.thomas.co/static/media/thomasFont.d77c03bb.ttf) format("truetype"), url(https://perform.thomas.co/static/media/thomasFont.dfe1ee18.woff) format("woff"), url(https://perform.thomas.co/static/media/thomasFont.2221fdf0.svg#thomasFont) format("svg");
   font-weight: 400;
   font-style: normal;
-  font-display: block;
+  font-display: block
 }
 
 .fab {
-  font-family: 'font awesome 5 brands';
+  font-family: "font awesome 5 brands"
 }
 
 .fab,
 .far {
-  font-weight: 400;
+  font-weight: 400
 }
 
 .fa,
 .far,
 .fas {
-  font-family: 'font awesome 5 free';
+  font-family: "font awesome 5 free"
 }
 
 .avatar,
@@ -108,7 +88,7 @@
   font-feature-settings: normal;
   font-variant: normal;
   text-rendering: auto;
-  line-height: 1;
+  line-height: 1
 }
 
 .avatar {
@@ -116,11 +96,11 @@
   text-align: center;
   border-radius: 0;
   font-size: 1em;
-  cursor: pointer;
+  cursor: pointer
 }
 
-[class*=' thomasicon-'],
-[class^='thomasicon-'] {
+[class*=" thomasicon-"],
+[class^=thomasicon-] {
   font-family: thomasFont !important;
   speak: none;
   font-style: normal;
@@ -130,115 +110,115 @@
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale
 }
 
 .thomasicon-AppSwitcherPerform:before {
-  content: '\e912';
+  content: "\e912"
 }
 
 .thomasicon-AppSwitcherProfile:before {
-  content: '\e913';
+  content: "\e913"
 }
 
 .thomasicon-logo:before {
-  content: '\e908';
+  content: "\e908"
 }
 
 .thomasicon-thomas-logo-color .path1:before {
-  content: '\e909';
-  color: #284767;
+  content: "\e909";
+  color: #284767
 }
 
 .thomasicon-thomas-logo-color .path2:before {
-  content: '\e90a';
+  content: "\e90a";
   margin-left: -3.8720703125em;
-  color: #284767;
+  color: #284767
 }
 
 .thomasicon-thomas-logo-color .path3:before {
-  content: '\e90b';
+  content: "\e90b";
   margin-left: -3.8720703125em;
-  color: #284767;
+  color: #284767
 }
 
 .thomasicon-thomas-logo-color .path4:before {
-  content: '\e90c';
+  content: "\e90c";
   margin-left: -3.8720703125em;
-  color: #284767;
+  color: #284767
 }
 
 .thomasicon-thomas-logo-color .path5:before {
-  content: '\e90d';
+  content: "\e90d";
   margin-left: -3.8720703125em;
-  color: #284767;
+  color: #284767
 }
 
 .thomasicon-thomas-logo-color .path6:before {
-  content: '\e90e';
+  content: "\e90e";
   margin-left: -3.8720703125em;
-  color: #284767;
+  color: #284767
 }
 
 .thomasicon-thomas-logo-color .path7:before {
-  content: '\e90f';
+  content: "\e90f";
   margin-left: -3.8720703125em;
-  color: #284767;
+  color: #284767
 }
 
 .thomasicon-thomas-logo-color .path8:before {
-  content: '\e910';
+  content: "\e910";
   margin-left: -3.8720703125em;
-  color: #284767;
+  color: #284767
 }
 
 .thomasicon-thomas-logo-color .path9:before {
-  content: '\e911';
+  content: "\e911";
   margin-left: -3.8720703125em;
-  color: #7c9e87;
+  color: #7c9e87
 }
 
 .thomasicon-Profile:before {
-  content: '\e907';
+  content: "\e907"
 }
 
 .thomasicon-360:before {
-  content: '\e900';
+  content: "\e900"
 }
 
 .thomasicon-Aptitude:before {
-  content: '\e901';
+  content: "\e901"
 }
 
 .thomasicon-Behaviour:before {
-  content: '\e902';
+  content: "\e902"
 }
 
 .thomasicon-Emotion:before {
-  content: '\e903';
+  content: "\e903"
 }
 
 .thomasicon-Engage:before {
-  content: '\e904';
+  content: "\e904"
 }
 
 .thomasicon-Job:before {
-  content: '\e905';
+  content: "\e905"
 }
 
 .thomasicon-Personality:before {
-  content: '\e906';
+  content: "\e906"
 }
 
 @media screen {
   section {
-    display: inline-block;
+    display: inline-block
   }
 }
 
 @media all {
   html * {
-    box-sizing: border-box;
+    box-sizing: border-box
   }
 
   body,
@@ -246,7 +226,7 @@
     font-family: Lato, helvetica neue, Helvetica, Arial, sans-serif;
     font-size: 10pt;
     background-color: transparent;
-    color: #333;
+    color: #333
   }
 
   @page {
@@ -257,19 +237,19 @@
     background-color: #fff;
 
     @top-left {
-      content: '';
+      content: "";
       margin-top: 8mm;
       width: 50%;
       text-align: left;
       background: none;
-      border: none;
+      border: none
     }
 
     @top-right {
       border: none;
       margin-top: 8mm;
       width: 50%;
-      content: element(headerRight);
+      content: element(headerRight)
     }
 
     @bottom-left {
@@ -277,14 +257,14 @@
       margin-top: 3mm;
       font-weight: normal;
       width: 70mm;
-      content: element(footerLeft);
+      content: element(footerLeft)
     }
 
     @bottom-center {
       height: 12.5mm;
       margin-top: 3mm;
       width: 50mm;
-      content: element(footerCenter);
+      content: element(footerCenter)
     }
 
     @bottom-right {
@@ -294,17 +274,17 @@
       font-style: italic;
       text-align: right;
       width: 70mm;
-      content: element(footerRight);
+      content: element(footerRight)
     }
   }
 
   @page: first {
     @top-left {
-      content: element(headerLeft);
+      content: element(headerLeft)
     }
 
     @bottom-center {
-      content: '';
+      content: ""
     }
   }
 
@@ -316,7 +296,7 @@
       margin-top: 3mm;
       margin-right: 1mm;
       font-weight: normal;
-      width: 230mm;
+      width: 230mm
     }
 
     @bottom-right {
@@ -326,12 +306,12 @@
       font-family: sans-serif;
       font-style: italic;
       text-align: right;
-      width: 10mm;
+      width: 10mm
     }
   }
 
   #coverImage img {
-    width: 100%;
+    width: 100%
   }
 
   .date,
@@ -339,14 +319,14 @@
     color: #333;
     display: inline-block;
     font-size: 16px;
-    width: 250px;
+    width: 250px
   }
 
   svg {
     width: 100%;
     display: block;
     -ro-priority: -99;
-    -ro-rasterization: avoid;
+    -ro-rasterization: avoid
   }
 
   h2 {
@@ -354,17 +334,17 @@
     font-size: 18px;
     line-height: 30px;
     color: #000;
-    text-transform: capitalize;
+    text-transform: capitalize
   }
 
   h3,
   h4 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.5em
   }
 
   h4 {
-    font-weight: 400;
+    font-weight: 400
   }
 }
 
@@ -375,207 +355,202 @@ h4,
 h5,
 h6 {
   margin: 0;
-  clear: both;
+  clear: both
 }
 
 .headerLeft {
   position: running(headerLeft);
   padding-left: 0;
-  text-align: left;
+  text-align: left
 }
 
 footer div.footerLeft {
-  position: running(footerLeft);
+  position: running(footerLeft)
 }
 
-.footerLeft > span {
+.footerLeft>span {
   font-size: 25.5px;
   position: relative;
   bottom: 4px;
-  padding-left: 12px;
+  padding-left: 12px
 }
 
 footer div.footerCenter {
   position: running(footerCenter);
-  margin: auto;
+  margin: auto
 }
 
 footer div.footerRight {
   position: running(footerRight);
-  text-align: right;
+  text-align: right
 }
 
 .footerLeft img,
 .footerRight img {
-  height: 6.5mm;
+  height: 6.5mm
 }
 
 .footerLeftClosingPage img {
-  height: 9mm;
+  height: 9mm
 }
 
 span.copyright {
   font-size: 1em;
   padding: 0;
-  top: 1px;
+  top: 1px
 }
 
 section.overview {
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 0
 }
 
-/* section.profile {
-  page-break-after: always;
-} */
-
-section.pageBreakAfter {
-  page-break-after: always;
+section:nth-of-type(-n+2) {
+  page-break-after: always
 }
-
 
 section.noPageBreak {
-  page-break-after: avoid;
+  page-break-after: avoid
 }
 
 section.autoPageBreak {
   page-break-before: auto;
-  break-inside: avoid-page;
+  break-inside: avoid-page
 }
 
-[class*='col-'] {
+[class*=col-] {
   box-sizing: border-box;
   display: inline-block;
-  float: left;
+  float: left
 }
 
-[class*='col-'] > :not([class*='col-']):not(img):not(widget) {
-  padding: 0 0;
+[class*=col-]>:not([class*=col-]):not(img):not(widget) {
+  padding: 0 0
 }
 
 .col-3 {
-  width: 24.9%;
+  width: 24.9%
 }
 
 .col-4 {
-  width: 33%;
+  width: 33%
 }
 
 .col-5 {
-  width: 41.6%;
+  width: 41.6%
 }
 
 .col-6 {
-  width: 49.9%;
+  width: 49.9%
 }
 
 .col-7 {
-  width: 58.3%;
+  width: 58.3%
 }
 
 .col-8 {
-  width: 66.4%;
+  width: 66.4%
 }
 
 .col-12,
 .small-12 {
-  width: 100%;
+  width: 100%
 }
 
 [extra] {
-  display: none;
+  display: none
 }
 
 hr {
-  border-width: 0.01cm;
+  border-width: .01cm;
   border-style: solid;
-  margin-top: 16px;
+  margin-top: 16px
 }
 
 paragraph {
-  display: block;
+  display: block
 }
 
 table {
   clear: both;
   border-collapse: collapse;
   border-spacing: 0;
-  text-align: center;
+  text-align: center
 }
 
 table.fullwidth {
   width: 700px;
   overflow: hidden;
   display: inline-block;
-  table-layout: fixed;
+  table-layout: fixed
 }
 
 table.wide {
-  page: landscape;
+  page: landscape
 }
 
 table td {
   padding: 2mm 2mm 2mm 2mm;
   vertical-align: top;
-  break-inside: avoid-page;
+  break-inside: avoid-page
 }
 
 table th {
-  padding: 2mm 2mm 2mm 2mm;
+  padding: 2mm 2mm 2mm 2mm
 }
 
 .align-left {
-  text-align: left;
+  text-align: left
 }
 
 .align-center {
-  text-align: center;
+  text-align: center
 }
 
 .align-right {
-  text-align: right;
+  text-align: right
 }
 
 .align-top {
-  vertical-align: top;
+  vertical-align: top
 }
 
 .align-middle {
-  vertical-align: middle;
+  vertical-align: middle
 }
 
 .align-bottom {
-  vertical-align: bottom;
+  vertical-align: bottom
 }
 
 .align-justified {
-  text-align: justify;
+  text-align: justify
 }
 
 .clearfix {
-  clear: both;
+  clear: both
 }
 
 .fullwidth {
-  width: 100%;
+  width: 100%
 }
 
 .justified {
-  text-align: justify;
+  text-align: justify
 }
 
 .noSpaceBefore {
   padding-top: 0;
-  margin-top: 0;
+  margin-top: 0
 }
 
 div.page,
 section.page {
-  break-before: always;
+  break-before: always
 }
 
 .avoid-break-across-pages {
-  break-inside: avoid-page;
+  break-inside: avoid-page
 }
 
 .pageCount::before {
@@ -585,67 +560,67 @@ section.page {
   font-size: 10px;
   height: 4.5mm;
   text-align: center;
-  width: 10mm;
+  width: 10mm
 }
 
 .twoColumn {
   margin-top: 16px;
-  column-count: 2;
+  column-count: 2
 }
 
 .threeColumn {
   margin-top: 16px;
-  column-count: 3;
+  column-count: 3
 }
 
 .error {
   color: red;
   background-color: #ff0;
   font-weight: 700;
-  font-family: monospace;
+  font-family: monospace
 }
 
 .uppercase {
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .lowercase {
-  text-transform: lowercase;
+  text-transform: lowercase
 }
 
 article.cover {
-  background: 0 0;
+  background: 0 0
 }
 
 section#CoverPage {
-  box-shadow: none;
+  box-shadow: none
 }
 
 .coverPage {
   left: 3cm;
   position: absolute;
   top: 45%;
-  text-align: center;
+  text-align: center
 }
 
 .coverPage p {
   color: #333;
   max-width: 13.68cm;
   margin: 0;
-  text-align: center;
+  text-align: center
 }
 
 [inksaver] .coverPage p {
-  color: #066390;
+  color: #066390
 }
 
 .coverPage p {
   line-height: 30pt;
-  font-size: 20pt;
+  font-size: 20pt
 }
 
 .coverPage p:nth-child(2) {
-  font-weight: 700;
+  font-weight: 700
 }
 
 section {
@@ -653,45 +628,45 @@ section {
   width: 100%;
   background: #fff;
   float: left;
-  break-inside: avoid-page;
+  break-inside: avoid-page
 }
 
 .section-content {
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
   border-radius: 3px;
   padding: 20px !important;
-  margin-top: 20px;
+  margin-top: 20px
 }
 
 .section-content li,
 .section-content p {
   margin-top: 0;
   line-height: 18px;
-  font-size: 14px;
+  font-size: 14px
 }
 
 .section-content ul {
   margin-left: 0;
-  padding-left: 20px;
+  padding-left: 20px
 }
 
 .section-content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0
 }
 
 .copyright,
 .link a {
-  font-size: 7.5pt !important;
+  font-size: 7.5pt !important
 }
 
 .primary {
-  color: #333 !important;
+  color: #333 !important
 }
 
 .candidate__assessments {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 10px
 }
 
 .candidate__assessment {
@@ -701,33 +676,33 @@ section {
   color: #fff;
   font-size: 10pt;
   padding: 6px 2px;
-  text-align: center;
+  text-align: center
 }
 
 .candidate__assessment i {
   margin-right: 5px;
-  font-size: 8pt;
+  font-size: 8pt
 }
 
 svg {
   width: 100%;
   display: block;
   -ro-priority: -99;
-  -ro-rasterization: avoid;
+  -ro-rasterization: avoid
 }
 
 h2 {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 0
 }
 
 h3,
 h4 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.5em
 }
 
 h4 {
-  font-weight: 400;
+  font-weight: 400
 }
 
 h1,
@@ -737,49 +712,49 @@ h4,
 h5,
 h6 {
   margin: 0;
-  clear: both;
+  clear: both
 }
 
 .headerLeft {
   position: running(headerLeft);
-  text-align: left;
+  text-align: left
 }
 
 .headerLeft .date {
   text-align: left;
   color: #000000;
-  font-size: 7.5pt;
+  font-size: 7.5pt
 }
 
 .headerRight {
   position: running(headerRight);
-  text-align: right;
+  text-align: right
 }
 
 .headerRight svg {
   width: 140px;
-  float: right;
+  float: right
 }
 
 footer div.footerLeft {
   position: running(footerLeft);
-  text-align: left;
+  text-align: left
 }
 
-.footerLeft > span {
+.footerLeft>span {
   position: relative;
   bottom: 4px;
-  padding-left: 12px;
+  padding-left: 12px
 }
 
 footer div.footerCenter {
   position: running(footerCenter);
-  text-align: center;
+  text-align: center
 }
 
 footer div.footerRight {
   position: running(footerRight);
-  text-align: right;
+  text-align: right
 }
 
 footer span.link,
@@ -788,15 +763,15 @@ span.copyright {
   font-size: 1em;
   padding: 0;
   top: 1px;
-  color: #333 !important;
+  color: #333 !important
 }
 
 .overview .col-6 {
-  width: calc(49.9% - 7.5px);
+  width: calc(49.9% - 7.5px)
 }
 
 .margin-right {
-  margin-right: 15px;
+  margin-right: 15px
 }
 
 .candidateBehaviourOverviewCard {
@@ -806,7 +781,7 @@ span.copyright {
   box-shadow: none;
   margin-top: 5px;
   margin-bottom: 0;
-  padding: 0 !important;
+  padding: 0 !important
 }
 
 .candidateOverviewCard {
@@ -815,7 +790,7 @@ span.copyright {
   box-shadow: none;
   margin-top: 5px;
   margin-bottom: 0;
-  padding: 0 !important;
+  padding: 0 !important
 }
 
 .candidateOverviewCard.aptitude {
@@ -823,7 +798,7 @@ span.copyright {
 }
 
 .candidateOverviewCard.personality {
-  background: #82599b;
+  background: #82599B
 }
 
 .card {
@@ -834,11 +809,11 @@ span.copyright {
   border: none;
   border-radius: 10px;
   overflow: hidden;
-  color: #0a0a0a;
+  color: #0a0a0a
 }
 
 .candidateBehaviourOverviewCard .card-section {
-  padding: 0;
+  padding: 0
 }
 
 .candidateBehaviourOverviewCard .detailsContainer {
@@ -854,12 +829,12 @@ span.copyright {
   text-align: center;
   display: inline-block;
   position: relative;
-  top: -8px;
+  top: -8px
 }
 
 .candidateBehaviourOverviewCard .detailsContainer .icon i {
   position: relative;
-  top: 8px;
+  top: 8px
 }
 
 .candidateBehaviourOverviewCard .detailsContainer .selfImageProfile {
@@ -871,32 +846,32 @@ span.copyright {
   line-height: 19px;
   color: #6b6b6b;
   margin-left: 8px;
-  display: inline-block;
+  display: inline-block
 }
 
 .candidateBehaviourOverviewCard .detailsContainer .title {
   margin-top: 0;
   margin-bottom: 7px;
-  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   color: inherit;
   text-rendering: optimizeLegibility;
   color: #fff;
-  font-size: 16px;
+  font-size: 16px
 }
 
 .candidateBehaviourOverviewCard .detailsContainer .date {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
-  color: #fff;
+  color: #fff
 }
 
 .candidateBehaviourOverviewCard .characteristicsContainer {
   padding: 34px 20px 0 20px;
   background: #223b56;
-  min-height: 142px;
+  min-height: 142px
 }
 
 .candidateBehaviourOverviewCard .characteristicsContainer .characteristic {
@@ -905,14 +880,14 @@ span.copyright {
 }
 
 .candidateBehaviourOverviewCard .characteristicsContainer .characteristic:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0
 }
 
 .candidateBehaviourOverviewCard .characteristicsContainer .characteristic .characteristicKey {
   width: 25px;
   margin-right: 10px;
   position: relative;
-  top: 3px;
+  top: 3px
 }
 
 .candidateBehaviourOverviewCard .characteristicsContainer .characteristic .characteristicLabel {
@@ -923,18 +898,15 @@ span.copyright {
   border-radius: 10px;
   padding: 7px 12px;
   flex-grow: 1;
-  color: #fff;
+  color: #fff
 }
 
-.candidateBehaviourOverviewCard
-  .characteristicsContainer
-  .characteristic:first-child
-  .characteristicLabel {
-  background: #335d89;
+.candidateBehaviourOverviewCard .characteristicsContainer .characteristic:first-child .characteristicLabel {
+  background: #335d89
 }
 
 .candidateBehaviourOverviewCard .detailsContainer .date:before {
-  content: '';
+  content: "";
   border-radius: 100%;
   border: 1px solid #fff;
   height: 7px;
@@ -942,15 +914,15 @@ span.copyright {
   display: inline-block;
   margin-right: 5px;
   position: relative;
-  top: -7px;
+  top: -7px
 }
 
 .candidateBehaviourOverviewCard .detailsContainer .date.isValid:before {
-  background: #4d9a66;
+  background: #4d9a66
 }
 
 .candidateOverviewCard .card-section {
-  padding: 0;
+  padding: 0
 }
 
 .candidateOverviewCard .detailsContainer {
@@ -966,12 +938,12 @@ span.copyright {
   text-align: center;
   display: inline-block;
   position: relative;
-  top: -8px;
+  top: -8px
 }
 
 .candidateOverviewCard .detailsContainer .icon i {
   position: relative;
-  top: 8px;
+  top: 8px
 }
 
 .candidateOverviewCard .detailsContainer .selfImageProfile {
@@ -983,26 +955,26 @@ span.copyright {
   line-height: 19px;
   color: #6b6b6b;
   margin-left: 8px;
-  display: inline-block;
+  display: inline-block
 }
 
 .candidateOverviewCard .detailsContainer .title {
   margin-top: 0;
   margin-bottom: 7px;
-  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   color: inherit;
   text-rendering: optimizeLegibility;
   color: #fff;
-  font-size: 16px;
+  font-size: 16px
 }
 
 .candidateOverviewCard .detailsContainer .date {
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
-  color: #fff;
+  color: #fff
 }
 
 .candidateOverviewCard .detailsContainer .rating {
@@ -1016,9 +988,10 @@ span.copyright {
   display: inline-block;
 }
 
+
 .candidateOverviewCard .characteristicsContainer {
   padding: 34px 20px 0 20px;
-  min-height: 142px;
+  min-height: 142px
 }
 
 .candidateOverviewCard.aptitude .characteristicsContainer {
@@ -1026,7 +999,7 @@ span.copyright {
 }
 
 .candidateOverviewCard.personality .characteristicsContainer {
-  background: #5f4979;
+  background: #5F4979;
 }
 
 .candidateOverviewCard .characteristicsContainer .characteristic {
@@ -1035,14 +1008,14 @@ span.copyright {
 }
 
 .candidateOverviewCard .characteristicsContainer .characteristic:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0
 }
 
 .candidateOverviewCard .characteristicsContainer .characteristic .characteristicKey {
   width: 25px;
   margin-right: 10px;
   position: relative;
-  top: 3px;
+  top: 3px
 }
 
 .candidateOverviewCard .characteristicsContainer .characteristic .characteristicLabel {
@@ -1052,7 +1025,7 @@ span.copyright {
   border-radius: 10px;
   padding: 7px 12px;
   flex-grow: 1;
-  color: #fff;
+  color: #fff
 }
 
 .candidateOverviewCard.aptitude .characteristicsContainer .characteristic .characteristicLabel {
@@ -1060,25 +1033,19 @@ span.copyright {
 }
 
 .candidateOverviewCard.personality .characteristicsContainer .characteristic .characteristicLabel {
-  background: #4e3d63;
+  background: #4E3D63;
 }
 
-.candidateOverviewCard.aptitude
-  .characteristicsContainer
-  .characteristic:first-child
-  .characteristicLabel {
+.candidateOverviewCard.aptitude .characteristicsContainer .characteristic:first-child .characteristicLabel {
   background: #629f6d;
 }
 
-.candidateOverviewCard.personality
-  .characteristicsContainer
-  .characteristic:first-child
-  .characteristicLabel {
-  background: #7c5e9f;
+.candidateOverviewCard.personality .characteristicsContainer .characteristic:first-child .characteristicLabel {
+  background: #7C5E9F;
 }
 
 .candidateOverviewCard .detailsContainer .date:before {
-  content: '';
+  content: "";
   border-radius: 100%;
   border: 1px solid #fff;
   height: 7px;
@@ -1086,7 +1053,7 @@ span.copyright {
   display: inline-block;
   margin-right: 5px;
   position: relative;
-  top: -7px;
+  top: -7px
 }
 
 .candidateOverviewCard .detailsContainer .date.isValid:before {
@@ -1098,11 +1065,11 @@ span.copyright {
   color: #fff;
   margin-top: 5px;
   margin-bottom: 0;
-  box-shadow: none;
+  box-shadow: none
 }
 
 .comingSoonOverviewCard.aptitude .detailsContainer {
-  background: rgba(97, 160, 115, 0.3);
+  background: rgba(97, 160, 115, .3)
 }
 
 .comingSoonOverviewCard .detailsContainer {
@@ -1117,30 +1084,30 @@ span.copyright {
   background: #fff;
   text-align: center;
   display: inline-block;
-  font-size: 0.8rem;
-  line-height: 30px;
+  font-size: .8rem;
+  line-height: 30px
 }
 
 .comingSoonOverviewCard .detailsContainer .icon .thomasicon-Aptitude {
   color: #61a073;
   position: relative;
-  top: 8px;
+  top: 8px
 }
 
 .comingSoonOverviewCard .detailsContainer .title {
   margin-top: 10px;
   margin-bottom: 7px;
-  font-size: 16px;
+  font-size: 16px
 }
 
 .comingSoonOverviewCard .detailsContainer .comingSoon {
   font-weight: 400;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 12px
 }
 
 .comingSoonOverviewCard .detailsContainer .comingSoon:before {
-  content: '';
+  content: "";
   border-radius: 100%;
   border: 1px solid #fff;
   height: 7px;
@@ -1149,38 +1116,38 @@ span.copyright {
   margin-right: 5px;
   background: #c6c6c6;
   position: relative;
-  top: -7px;
+  top: -7px
 }
 
 .comingSoonOverviewCard .textContainer {
   padding: 1rem;
-  background: rgba(198, 198, 198, 0.4);
-  min-height: 142px;
+  background: rgba(198, 198, 198, .4);
+  min-height: 142px
 }
 
 .comingSoonOverviewCard .textContainer .text {
   color: #868686;
-  font-size: 14px;
+  font-size: 14px
 }
 
 .comingSoonOverviewCard.personality .detailsContainer {
-  background: rgba(124, 94, 159, 0.3);
+  background: rgba(124, 94, 159, .3)
 }
 
 .comingSoonOverviewCard .detailsContainer .icon .thomasicon-Personality {
   color: #7c5e9f;
   position: relative;
-  top: 8px;
+  top: 8px
 }
 
 .comingSoonOverviewCard.behaviour .detailsContainer {
-  background: rgba(41, 71, 103, 0.3);
+  background: rgba(41, 71, 103, .3)
 }
 
 .comingSoonOverviewCard .detailsContainer .icon .thomasicon-Behaviour {
   color: #294767;
   position: relative;
-  top: 8px;
+  top: 8px
 }
 
 .characteristic-badge {
@@ -1202,61 +1169,55 @@ span.copyright {
 }
 
 .characteristic-badge--personality {
-  background-color: #82599b;
+  background-color: #82599B;
 }
 
 .characteristic-badge .tickIcon {
   margin-right: 5px;
-  font-size: 12px;
+  font-size: 12px
 }
 
 .fa-check-circle:before {
-  content: '\f058';
+  content: "\f058"
 }
 
 .behaviour_icons,
 .characteristic {
-  display: inline-block;
+  display: inline-block
 }
 
 .characteristic {
   margin-right: 2px;
   position: relative;
-  top: -17px;
+  top: -17px
 }
 
 .characteristic svg {
-  width: auto;
+  width: auto
 }
 
 .disc-chart-container .results-container {
   width: 500px;
-  margin: 5px auto 30px auto;
+  margin: 5px auto 30px auto
 }
 
 .disc-chart-container .results-container .results-labels {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 10px
 }
 
 .disc-chart-container .results-container .results-bar {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 .results-container .results-bar .supporting-bar {
   height: 8px;
   width: 50%;
-  background: rgba(41, 71, 103, 0.7);
-  background: linear-gradient(
-    90deg,
-    rgba(145, 161, 177, 0.7) 27%,
-    rgba(41, 71, 103, 0.7) 27%,
-    rgba(41, 71, 103, 0.7) 73%,
-    rgba(145, 161, 177, 0.7) 73%
-  );
+  background: rgba(41, 71, 103, .7);
+  background: linear-gradient(90deg, rgba(145, 161, 177, .7) 27%, rgba(41, 71, 103, .7) 27%, rgba(41, 71, 103, .7) 73%, rgba(145, 161, 177, .7) 73%);
   border-top-left-radius: 13px;
   border-bottom-left-radius: 13px;
 }
@@ -1269,22 +1230,16 @@ span.copyright {
   width: 20px;
   border-radius: 100%;
   background: #294767;
-  transition: 0.2s right;
+  transition: .2s right
 }
 
 .results-container .results-bar .contributing-bar {
   height: 8px;
   width: 50%;
-  background: rgba(41, 71, 103, 0.7);
-  background: linear-gradient(
-    90deg,
-    rgba(145, 161, 177, 0.7) 27%,
-    rgba(41, 71, 103, 0.7) 27%,
-    rgba(41, 71, 103, 0.7) 73%,
-    rgba(145, 161, 177, 0.7) 73%
-  );
+  background: rgba(41, 71, 103, .7);
+  background: linear-gradient(90deg, rgba(145, 161, 177, .7) 27%, rgba(41, 71, 103, .7) 27%, rgba(41, 71, 103, .7) 73%, rgba(145, 161, 177, .7) 73%);
   border-top-right-radius: 13px;
-  border-bottom-right-radius: 13px;
+  border-bottom-right-radius: 13px
 }
 
 .apt-percentile-chart-container .results-breakdown-container {
@@ -1316,11 +1271,7 @@ span.copyright {
   display: none;
 }
 
-.apt-percentile-chart-container
-  .results-container
-  .results-labels
-  .accordion-dropdown
-  .accordion-dropdown-button {
+.apt-percentile-chart-container .results-container .results-labels .accordion-dropdown .accordion-dropdown-button {
   display: block;
   text-align: right;
   font-size: 12px;
@@ -1337,20 +1288,11 @@ span.copyright {
   font-family: Lato;
 }
 
-.apt-percentile-chart-container
-  .results-container
-  .results-labels
-  .accordion-dropdown
-  .accordion-dropdown-button
-  .accordion-dropdown-chevron {
+.apt-percentile-chart-container .results-container .results-labels .accordion-dropdown .accordion-dropdown-button .accordion-dropdown-chevron {
   margin-left: 5px;
 }
 
-.apt-percentile-chart-container
-  .results-container
-  .results-labels
-  .accordion-dropdown
-  .accordion-dropdown-content {
+.apt-percentile-chart-container .results-container .results-labels .accordion-dropdown .accordion-dropdown-content {
   background: #eaeaea;
   border-radius: 10px;
   font-size: 10px;
@@ -1372,17 +1314,11 @@ span.copyright {
   font-size: 12px;
 }
 
-.apt-percentile-chart-container
-  .results-container
-  .results-bar-apt
-  .results-bar-apt-slider-label.low {
+.apt-percentile-chart-container .results-container .results-bar-apt .results-bar-apt-slider-label.low {
   margin-right: 5px;
 }
 
-.apt-percentile-chart-container
-  .results-container
-  .results-bar-apt
-  .results-bar-apt-slider-label.high {
+.apt-percentile-chart-container .results-container .results-bar-apt .results-bar-apt-slider-label.high {
   margin-left: 5px;
 }
 
@@ -1406,17 +1342,7 @@ span.copyright {
   height: 8px;
   width: 500px;
   border-radius: 13px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.75) 15%,
-    rgba(255, 255, 255, 0.5) 15%,
-    rgba(255, 255, 255, 0.5) 34%,
-    rgba(255, 255, 255, 0.25) 34%,
-    rgba(255, 255, 255, 0.25) 65%,
-    rgba(98, 159, 109, 1) 65%,
-    rgba(98, 159, 109, 1) 85%,
-    rgba(51, 51, 51, 0.4) 85%
-  );
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.75) 15%, rgba(255, 255, 255, 0.5) 15%, rgba(255, 255, 255, 0.5) 34%, rgba(255, 255, 255, 0.25) 34%, rgba(255, 255, 255, 0.25) 65%, rgba(98, 159, 109, 1) 65%, rgba(98, 159, 109, 1) 85%, rgba(51, 51, 51, 0.4) 85%);
 }
 
 .apt-percentile-chart-container .results-container .results-bar-apt .result-disc {
@@ -1446,11 +1372,7 @@ span.copyright {
   margin-top: 20px;
 }
 
-.apt-percentile-chart-container
-  .overall-results-container
-  .results-labels
-  .accordion-dropdown
-  .accordion-dropdown-content {
+.apt-percentile-chart-container .overall-results-container .results-labels .accordion-dropdown .accordion-dropdown-content {
   margin-top: 17px;
 }
 
@@ -1472,20 +1394,13 @@ span.copyright {
   text-align: center;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-labels
-  .results-bar-personality-title {
+.personality-percentile-chart-container .results-container .results-labels .results-bar-personality-title {
   font-size: 12px;
   display: block;
   text-align: center;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-labels
-  .results-bar-personality-title
-  span {
+.personality-percentile-chart-container .results-container .results-labels .results-bar-personality-title span {
   font-weight: 700;
 }
 
@@ -1494,11 +1409,7 @@ span.copyright {
   display: none;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-labels
-  .accordion-dropdown
-  .accordion-dropdown-button {
+.personality-percentile-chart-container .results-container .results-labels .accordion-dropdown .accordion-dropdown-button {
   display: block;
   text-align: right;
   font-size: 12px;
@@ -1515,20 +1426,11 @@ span.copyright {
   font-family: Lato;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-labels
-  .accordion-dropdown
-  .accordion-dropdown-button
-  .accordion-dropdown-chevron {
+.personality-percentile-chart-container .results-container .results-labels .accordion-dropdown .accordion-dropdown-button .accordion-dropdown-chevron {
   margin-left: 5px;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-labels
-  .accordion-dropdown
-  .accordion-dropdown-content {
+.personality-percentile-chart-container .results-container .results-labels .accordion-dropdown .accordion-dropdown-content {
   background: #eaeaea;
   border-radius: 10px;
   font-size: 10px;
@@ -1545,45 +1447,30 @@ span.copyright {
   margin-top: 10px;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-bar-personality
-  .results-bar-personality-slider-label {
+.personality-percentile-chart-container .results-container .results-bar-personality .results-bar-personality-slider-label {
   font-weight: 700;
   font-size: 12px;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-bar-personality
-  .results-bar-personality-slider-label.low {
+.personality-percentile-chart-container .results-container .results-bar-personality .results-bar-personality-slider-label.low {
   margin-right: 5px;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-bar-personality
-  .results-bar-personality-slider-label.high {
+.personality-percentile-chart-container .results-container .results-bar-personality .results-bar-personality-slider-label.high {
   margin-left: 5px;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-bar-personality
-  .results-bar-personality-bar-container {
+.personality-percentile-chart-container .results-container .results-bar-personality .results-bar-personality-bar-container {
   height: 8px;
   width: 100%;
   width: 500px;
   margin: 0 auto;
-  background: #82599b;
+  background: #629f6d;
   border-radius: 13px;
   position: relative;
 }
 
-.personality-percentile-chart-container
-  .results-container
-  .results-bar-personality
-  .results-bar-personality-bar {
+.personality-percentile-chart-container .results-container .results-bar-personality .results-bar-personality-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -1593,17 +1480,7 @@ span.copyright {
   height: 8px;
   width: 500px;
   border-radius: 13px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.75) 20%,
-    rgba(255, 255, 255, 0.5) 20%,
-    rgba(255, 255, 255, 0.5) 40%,
-    rgba(255, 255, 255, 0.25) 40%,
-    rgba(255, 255, 255, 0.25) 60%,
-    rgba(130, 89, 155, 1) 60%,
-    rgba(130, 89, 155, 1) 80%,
-    rgba(51, 51, 51, 0.4) 80%
-  );
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0.75) 20%,rgba(255, 255, 255, 0.5) 20%,rgba(255, 255, 255, 0.5) 40%,rgba(255, 255, 255, 0.25) 40%,rgba(255, 255, 255, 0.25) 60%,rgba(130,89,155,1) 60%,rgba(130,89,155,1) 80%,rgba(51, 51, 51, 0.4) 80%);
 }
 
 .personality-percentile-chart-container .results-container .results-bar-personality .result-disc {
@@ -1614,15 +1491,12 @@ span.copyright {
   height: 16px;
   width: 16px;
   border-radius: 100%;
-  background: #82599b;
+  background: #629f6d;
   border: 1px solid #fff;
   transition: 0.2s right;
 }
 
-.personality-percentile-chart-container
-  .overall-results-container
-  .results-labels
-  .results-bar-personality-title {
+.personality-percentile-chart-container .overall-results-container .results-labels .results-bar-personality-title {
   background-color: #333;
   border-radius: 34px;
   color: #fff;
@@ -1636,11 +1510,7 @@ span.copyright {
   margin-top: 20px;
 }
 
-.personality-percentile-chart-container
-  .overall-results-container
-  .results-labels
-  .accordion-dropdown
-  .accordion-dropdown-content {
+.personality-percentile-chart-container .overall-results-container .results-labels .accordion-dropdown .accordion-dropdown-content {
   margin-top: 17px;
 }
 
@@ -1650,7 +1520,7 @@ span.copyright {
 
 .interview-guide .section-content {
   box-shadow: none;
-  padding: 0 !important;
+  padding: 0 !important
 }
 
 .interview-guide .callout.primary {
@@ -1663,7 +1533,7 @@ span.copyright {
 }
 
 .interview-guide-question {
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .25);
   padding: 0;
   font-size: 12px;
   margin-bottom: 20px;
@@ -1675,7 +1545,7 @@ span.copyright {
 }
 
 .interview-guide-question .accordion-dropdown {
-  overflow: visible;
+  overflow: visible
 }
 
 .interview-guide-question .accordion-dropdown .accordion-dropdown-content {
@@ -1684,16 +1554,16 @@ span.copyright {
   font-size: 12px;
   padding: 10px 15px;
   font-weight: 400;
-  width: 100%;
+  width: 100%
 }
 
 .accordion-dropdown-content-wrapper {
   max-height: none !important;
-  font-size: 12px;
+  font-size: 12px
 }
 
 .interview-guide-question .card-section {
-  padding: 20px;
+  padding: 20px
 }
 
 .interview-guide-question .accordion-dropdown .accordion-dropdown-button {
@@ -1714,22 +1584,22 @@ span.copyright {
 }
 
 .align-middle {
-  align-items: center;
+  align-items: center
 }
 
 .grid-margin-x {
-  margin-left: -0.625rem;
-  margin-right: -0.625rem;
+  margin-left: -.625rem;
+  margin-right: -.625rem
 }
 
 .grid-x {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row wrap
 }
 
 .cell {
   flex: 0 0 auto;
   min-height: 0;
   min-width: 0;
-  width: 100%;
+  width: 100%
 }

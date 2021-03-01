@@ -405,7 +405,7 @@ section.overview {
   border-radius: 0
 }
 
-section:nth-of-type(-n+2) {
+section:nth-of-type(-n+3) {
   page-break-after: always
 }
 

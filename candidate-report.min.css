@@ -405,9 +405,9 @@ section.overview {
   border-radius: 0
 }
 
-section:nth-of-type(-n+3) {
+/* section:nth-of-type(-n+3) {
   page-break-after: always
-}
+} */
 
 section.noPageBreak {
   page-break-after: avoid
